@@ -15,7 +15,27 @@ namespace DataAccessLayer.Repositories
             throw new NotImplementedException();
         }
 
+        public void Delete(Blog item)
+        {
+            throw new NotImplementedException();
+        }
+
+        public List<Blog> GetAll()
+        {
+            throw new NotImplementedException();
+        }
+
         public Blog GetBlog(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Blog GetById(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Insert(Blog item)
         {
             throw new NotImplementedException();
         }
@@ -26,6 +46,11 @@ namespace DataAccessLayer.Repositories
         }
 
         public void RemoveBlog(Blog blog)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Update(Blog item)
         {
             throw new NotImplementedException();
         }
