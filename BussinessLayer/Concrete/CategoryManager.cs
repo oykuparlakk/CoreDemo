@@ -13,7 +13,7 @@ namespace BussinessLayer.Concrete
     public class CategoryManager : ICategoryService
     {
         ICategoryDal _categoryDal;
-
+       
         public CategoryManager(ICategoryDal categoryDal)
         {
             _categoryDal = categoryDal;
@@ -21,8 +21,7 @@ namespace BussinessLayer.Concrete
 
         public void AddCategory(Category category)
         {
-            _categoryDal.Insert(category);  
-
+            throw new NotImplementedException();
         }
 
         public Category GetById(int id)
@@ -37,12 +36,12 @@ namespace BussinessLayer.Concrete
 
         public void RemoveCategory(Category category)
         {
-            _categoryDal.Delete(category);  
+            _categoryDal.Delete(category);
         }
 
         public void UpdateCategory(Category category)
         {
-            _categoryDal.Update(category);   
+            _categoryDal.Update(category);
         }
     }
 }
